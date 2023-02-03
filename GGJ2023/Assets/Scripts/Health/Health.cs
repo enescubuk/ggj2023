@@ -47,10 +47,5 @@ public class Health : MonoBehaviour
         {
             healthBar.SetBarValue(healthPercent);
         }
-
-        if (currentHealth >= 0)
-        {
-            healthEvents.CallDestroyEvent(enemyKillPoint);
-        }
     }
 }
