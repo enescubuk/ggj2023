@@ -14,3 +14,10 @@ public enum RootState
     phase4
 }
 
+public enum CharacterType
+{
+    Player,
+    Enemy,
+    Other
+}
+

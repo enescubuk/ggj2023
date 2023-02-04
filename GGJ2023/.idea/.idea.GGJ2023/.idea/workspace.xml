@@ -6,14 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/part1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/part1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/../../Forked/Star-Destroyer/Assets/Scripts/Combat/Character.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Forked/Star-Destroyer/Assets/Scripts/Combat/EnemyHealth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Forked/Star-Destroyer/Assets/Scripts/Combat/PlayerHealth.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Forked/Tentaclescape/Assets/Scripts/Player/PlayerAnimations.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../OTG Jams/save-the-jam-22/Assets/_Scripts/Wave/SpawnGroup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../OTG Jams/save-the-jam-22/Assets/_Scripts/Wave/Wave.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../OTG Jams/save-the-jam-22/Assets/_Scripts/Wave/WaveManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -33,6 +37,9 @@
     <setting file="file://$PROJECT_DIR$/../../Space-Shooter/Assets/Scripts/Health/HealthEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Udemy Course/DungeonGunnerCourse/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Udemy Course/DungeonGunnerCourse/Assets/Scripts/Player/PlayerControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AnimationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Enemy/EnemyDetailsSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Player/Attack.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="38750000" />
+      <workItem from="1675455687977" duration="45464000" />
     </task>
     <servers />
   </component>

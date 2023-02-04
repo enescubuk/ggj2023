@@ -1,7 +1,7 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-[RequireComponent(typeof(PlayerAttack))]
+[RequireComponent(typeof(Attack))]
 [RequireComponent(typeof(Health))]
  [DisallowMultipleComponent]
 public class Player : MonoBehaviour
@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     {
         health = GetComponent<Health>();
         healthEvents = GetComponent<HealthEvents>();
-        leafsParent = (GameObject)Instantiate(null, transform.position, transform.rotation, transform);
+        //leafsParent = (GameObject)Instantiate(null, transform.position, transform.rotation, transform);
     }
 
     private void OnEnable()

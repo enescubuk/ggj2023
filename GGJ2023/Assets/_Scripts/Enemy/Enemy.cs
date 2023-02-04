@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Health))]
@@ -8,6 +5,7 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class Enemy : MonoBehaviour
 {
+    public EnemyDetailsSO enemyDetails;
     [SerializeField] private int enemyKillPoint;
     private HealthEvents healthEvents;
     private Health health;

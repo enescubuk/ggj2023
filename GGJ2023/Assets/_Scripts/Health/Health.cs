@@ -38,6 +38,7 @@ public class Health : MonoBehaviour
         if (!isDamageable) return;
         
         currentHealth -= damage;
+        if (currentHealth <= 0) currentHealth = 0;
         float healthPercent = (float)currentHealth / (float)startHealth;
 
         healthEvents.CallHealthChanged(healthPercent, currentHealth, damage);
