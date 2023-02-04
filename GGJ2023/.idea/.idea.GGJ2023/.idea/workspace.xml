@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="34854000" />
+      <workItem from="1675455687977" duration="36749000" />
     </task>
     <servers />
   </component>
@@ -112,24 +115,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs</url>
-          <line>42</line>
-          <properties documentPath="D:\Projects\Unity Projects\ggj2023\GGJ2023\Assets\_Scripts\Player\PlayerAttack.cs" initialLine="37" containingFunctionPresentation="method 'DealDamage'">
-            <startOffsets>
-              <option value="1449" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1492" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
