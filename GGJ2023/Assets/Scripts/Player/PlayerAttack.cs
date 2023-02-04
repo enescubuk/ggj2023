@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private int playerDamage;
     [SerializeField] private float attackRange;
+    [SerializeField] private float attackInterval;
     [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private GameObject rangeDetector;
     private AttackEvents playerEvents;
@@ -21,7 +23,7 @@ public class PlayerAttack : MonoBehaviour
         
         if(detectedObjects == null) return;
         playerEvents.CallEnemyDetected(detectedObjects);
-        DealDamage(detectedObjects);
+        StartCoroutine(DealDamage(detectedObjects));
     }
 
     private void OnDrawGizmos()
@@ -30,9 +32,9 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawLine(rangeDetector.transform.position, Vector3.left);
     }
 
-    private void DealDamage(List<GameObject> objects)
+    private IEnumerator DealDamage(List<GameObject> objects)
     {
-        if (objects.Count == 0) return;
+        if (objects.Count == 0) yield return new WaitForEndOfFrame();
         
         foreach (var obj in objects)
         {
@@ -40,5 +42,7 @@ public class PlayerAttack : MonoBehaviour
             if(health == null) continue;
             health.TakeDamage(playerDamage);
         }
+
+        yield return new WaitForSeconds(attackInterval);
     }
 }
