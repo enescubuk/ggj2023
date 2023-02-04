@@ -7,15 +7,16 @@
     <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/AnimationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/AnimationManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/newtreemat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/newtreemat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/part2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part2.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/part2_punch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/part2_punch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/part3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part3.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/part3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part3.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "rider.run.widget.enabled.cache": "false",
-    "settings.editor.selected.configurable": "ReSpellerSettingsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ReSpellerSettingsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe" />
@@ -104,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="45464000" />
+      <workItem from="1675455687977" duration="48369000" />
     </task>
     <servers />
   </component>

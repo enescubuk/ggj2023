@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Attack))]
 [RequireComponent(typeof(Health))]
 [RequireComponent(typeof(HealthEvents))]
 [DisallowMultipleComponent]

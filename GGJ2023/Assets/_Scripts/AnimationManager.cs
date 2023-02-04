@@ -8,7 +8,7 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class AnimationManager : MonoBehaviour
 {
-    [SerializeField] private float fadeOutDuration;
+    [SerializeField] private float deathTime;
     private Animator animator;
     private HealthEvents healthEvents;
     private AttackEvents attackEvents;
@@ -41,17 +41,8 @@ public class AnimationManager : MonoBehaviour
 
     private void DeathAnim(int obj)
     {
+        Debug.Log("123");
         animator.SetTrigger(Death);
-        StartCoroutine(FadeOutObject());
-    }
-
-    private IEnumerator FadeOutObject()
-    {
-        for (float t = 0f; t < fadeOutDuration; t += Time.deltaTime)
-        {
-            float normalizedTİme = t / fadeOutDuration;
-            //gameObject.GetComponent<Renderer>().material.color.a = Color.Lerp(255f, 0f, fadeOutDuration);
-            yield return null;
-        }
+        Destroy(gameObject, deathTime);
     }
 }
