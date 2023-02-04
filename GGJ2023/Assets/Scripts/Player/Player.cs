@@ -3,8 +3,7 @@ using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(PlayerAttack))]
 [RequireComponent(typeof(Health))]
-[RequireComponent(typeof(HealthEvents))]
-[DisallowMultipleComponent]
+ [DisallowMultipleComponent]
 public class Player : MonoBehaviour
 {
     [SerializeField] private PlayerDetailsSO playerDetails;
