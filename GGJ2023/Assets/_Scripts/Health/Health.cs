@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private HealthBar healthBar;
     [SerializeField] private int startHealth;
-    private int currentHealth;
+    [SerializeField] private int currentHealth;
     private HealthEvents healthEvents;
     private bool isDamageable = true;
 
