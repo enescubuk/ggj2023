@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Phase1/Phase1AnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/AnimationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/AnimationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/newtreemat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/newtreemat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part2_punch.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part2_punch.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part3.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/part3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/part3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="48369000" />
+      <workItem from="1675455687977" duration="48985000" />
     </task>
     <servers />
   </component>
