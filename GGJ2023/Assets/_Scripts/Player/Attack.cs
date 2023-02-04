@@ -14,6 +14,7 @@ public class Attack : MonoBehaviour
     private Enemy enemy;
     private bool isAttacking = false;
     private CharacterType charType;
+    public bool canWalk = true;
 
     private void Awake()
     {
@@ -47,7 +48,7 @@ public class Attack : MonoBehaviour
                 enemy.enemyDetails.attackRangeRadius, enemy.enemyDetails.enemyLayer));
         }
 
-        if (detectedObjects.Count == 0)
+        if (detectedObjects.Count == 0 && canWalk)
         {
             attackEvents.CallAttackStop();
             return;

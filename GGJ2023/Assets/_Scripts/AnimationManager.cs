@@ -9,6 +9,7 @@ using UnityEngine;
 public class AnimationManager : MonoBehaviour
 {
     [SerializeField] private float deathTime;
+    [SerializeField] private GameObject manure = null;
     private Animator animator;
     private HealthEvents healthEvents;
     private AttackEvents attackEvents;
@@ -35,15 +36,25 @@ public class AnimationManager : MonoBehaviour
     }
 
     private void AttackAnim(List<GameObject> obj)
-    {
+    {        
+        healthEvents.gameObject.GetComponent<Attack>().canWalk = false;
         GetComponent<moveToMainTree>().stopMove();
         animator.SetTrigger(Attack);
+        healthEvents.gameObject.GetComponent<Attack>().canWalk = true;
     }
 
     private void DeathAnim(int obj)
     {
+        healthEvents.gameObject.GetComponent<Attack>().canWalk = false;
         GetComponent<moveToMainTree>().stopMove();
         animator.SetTrigger(Death);
+        StartCoroutine(InstantiateSeed());
+    }
+
+    private IEnumerator InstantiateSeed()
+    {
         Destroy(gameObject, deathTime);
+        yield return new WaitForSeconds(deathTime - 0.01f);
+        Instantiate(manure, transform.position, Quaternion.identity);
     }
 }

@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeDetector: {fileID: 909976339753874235}
   detectedObjects: []
+  canWalk: 1
 --- !u!114 &909976339529065550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathTime: 1.75
+  manure: {fileID: 3731161575631753237, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
 --- !u!1 &202253313967837873
 GameObject:
   m_ObjectHideFlags: 0

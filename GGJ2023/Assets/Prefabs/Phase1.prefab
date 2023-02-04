@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3617389957335538809}
   - component: {fileID: 8682385135375539799}
   - component: {fileID: 45701931553393666}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: part1_kapak_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2905493997773889625}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Detector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: -4682709651077128852}
   - component: {fileID: -2210043733266101687}
   - component: {fileID: 1971827995356435967}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Phase1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,8 +186,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 18.853794, z: 6.142842}
-  m_Center: {x: 0, y: 8.926892, z: -0.05652521}
+  m_Size: {x: 10.113984, y: 18.853794, z: 6.142842}
+  m_Center: {x: 0.12812614, y: 8.926892, z: -0.05652521}
 --- !u!114 &5876689778976383539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeDetector: {fileID: 7142350108011004238}
   detectedObjects: []
+  canWalk: 1
 --- !u!114 &-4682709651077128852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +266,7 @@ GameObject:
   - component: {fileID: 3377074007595048904}
   - component: {fileID: 4192652409737523611}
   - component: {fileID: 5455643703484131610}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: part1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
