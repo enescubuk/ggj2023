@@ -14,8 +14,6 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (!Input.GetKeyDown(KeyCode.Space)) return;
-
         detectedObjects = new List<GameObject>();
         Debug.DrawRay(rangeDetector.transform.position, rangeDetector.transform.right);
         
