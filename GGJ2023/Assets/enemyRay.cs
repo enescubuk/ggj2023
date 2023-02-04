@@ -14,6 +14,9 @@ public class enemyRay : MonoBehaviour
 
     void Update()
     {
-        
+        Debug.DrawLine(transform.position,transform.position + transform.right * -1 * rayDistance,Color.red);
+        detectedObjects = new List<GameObject>();
+        detectedObjects.AddRange(HelperUtilities.GetRaycastHitObjects(transform.position,transform.right * -1,rayDistance,targetLayer));
+        detectedObjects.AddRange(HelperUtilities.GetRaycastHitObjects(transform.position,transform.right,rayDistance,targetLayer));
     }
 }

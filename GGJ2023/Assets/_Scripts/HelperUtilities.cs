@@ -7,8 +7,6 @@ public static class HelperUtilities
     {
         Ray ray = new Ray(from, to);
         RaycastHit[] raycastHit = Physics.RaycastAll(ray, length, hitLayer);
-
-        if (raycastHit.Length == 0) return null;
         List<GameObject> objects = new List<GameObject>();
         
         foreach (var obj in raycastHit)
