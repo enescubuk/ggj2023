@@ -577,6 +577,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca76027f5b5b38c4796532197c3ca6ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleSprite: {fileID: 1808109542}
+--- !u!114 &748246441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748246434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738c67d00c7112344a1c7585e40aa3e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdOnObject: 0
 --- !u!1 &854885817
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,6 +824,7 @@ GameObject:
   - component: {fileID: 1334326501}
   - component: {fileID: 1334326500}
   - component: {fileID: 1334326499}
+  - component: {fileID: 1334326502}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -883,6 +898,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334326502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334326498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1693639572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,17 +1184,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manure
       objectReference: {fileID: 0}
+    - target: {fileID: 3731161575631753240, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3731161575631753241, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3731161575631753241, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.04
+      value: 14.82
       objectReference: {fileID: 0}
     - target: {fileID: 3731161575631753241, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 3731161575631753241, guid: 8f1f12e9bff00cf48b686684c5094699, type: 3}
       propertyPath: m_LocalPosition.z
