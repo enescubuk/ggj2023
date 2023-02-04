@@ -12,6 +12,11 @@ public class PlayerAttack : MonoBehaviour
     private AttackEvents playerEvents;
     private Player player;
 
+    private void Awake()
+    {
+        player = GetComponent<Player>();
+    }
+
     private void Update()
     {
         detectedObjects = new List<GameObject>();
