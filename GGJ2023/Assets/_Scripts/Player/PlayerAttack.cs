@@ -7,19 +7,16 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] private int playerDamage;
-    [SerializeField] private float attackRange;
-    [SerializeField] private float attackInterval;
-    [SerializeField] private LayerMask enemyLayer;
     [SerializeField] private GameObject rangeDetector;
     private AttackEvents playerEvents;
-    
+    private PlayerDetailsSO playerDetails;
+        
     private void Update()
     {
         if (!Input.GetKeyDown(KeyCode.Space)) return;
         
         List<GameObject> detectedObjects = HelperUtilities.GetRaycastHitObjects(rangeDetector.transform.position,
-            Vector3.left, attackRange, enemyLayer);
+            Vector3.left, playerDetails.attackRangeRadius, playerDetails.enemyLayer);
         
         if(detectedObjects == null) return;
         playerEvents.CallEnemyDetected(detectedObjects);
@@ -40,9 +37,9 @@ public class PlayerAttack : MonoBehaviour
         {
             Health health = obj.GetComponent<Health>();
             if(health == null) continue;
-            health.TakeDamage(playerDamage);
+            health.TakeDamage(playerDetails.playerDamage);
         }
 
-        yield return new WaitForSeconds(attackInterval);
+        yield return new WaitForSeconds(playerDetails.attackInterval);
     }
 }
