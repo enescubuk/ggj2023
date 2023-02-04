@@ -5,10 +5,19 @@ using UnityEngine;
 public class seedController : MonoBehaviour
 {
     public GameObject triangleSprite;
+    void Start()
+    {
+        //Instantiate(triangleSprite,getPosition(),Quaternion.identity);
+    }
     void Update()
     {
-        Vector3 lastPosition = triangleSprite.transform.position;
+        triangleSprite.transform.position = getPosition();
+    }
+    Vector3 getPosition()
+    {
+        Vector3 lastPosition = transform.position;
         lastPosition.x = transform.position.x;
-        triangleSprite.transform.position = lastPosition;
+        lastPosition.y = -3.3576f;
+        return lastPosition;
     }
 }
