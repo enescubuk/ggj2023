@@ -7,19 +7,22 @@ public class EnemySpawner : MonoBehaviour
     public GameObject Enemy;
 
     public float spawnDistance;
-    public int dayCounter = 10;
+    public int dayCounter;
     public GameObject[] spawnerPoints => GameObject.FindGameObjectsWithTag("SpawnPoint");
+
+    
 
     void Start()
     {
         spawnRepating();
+        
     }
 
     public void spawnRepating()
     {
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < dayCounter; i++)
         {
-            spawnEnemy();
+            //spawnEnemy();
         }
     }
     void spawnEnemy()
