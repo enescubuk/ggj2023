@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166be04bc24447244bad0c7d4298cab5, type: 3}
   m_Name: PlayerDetails
   m_EditorClassIdentifier: 
+  playerDamage: 50
+  attackRangeRadius: 5
+  attackInterval: 1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2147483648
   leafToAdd: 3
-  attackRangeRadius: 0
   plantAreaRadius: 0
   leafObject: {fileID: 871088924920579923, guid: cdc05ac37f9972d4784328e7f2973846, type: 3}
   leafSpawnDistanceMax: {x: 2, y: 2, z: 0}

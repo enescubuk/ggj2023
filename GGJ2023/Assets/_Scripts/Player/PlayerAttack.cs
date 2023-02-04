@@ -8,38 +8,40 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private GameObject rangeDetector;
+    public List<GameObject> detectedObjects;
     private AttackEvents playerEvents;
-    private PlayerDetailsSO playerDetails;
-        
+    private Player player;
+
     private void Update()
     {
         if (!Input.GetKeyDown(KeyCode.Space)) return;
+
+        detectedObjects = new List<GameObject>();
+        Debug.DrawRay(rangeDetector.transform.position, rangeDetector.transform.right);
         
-        List<GameObject> detectedObjects = HelperUtilities.GetRaycastHitObjects(rangeDetector.transform.position,
-            Vector3.left, playerDetails.attackRangeRadius, playerDetails.enemyLayer);
+        detectedObjects.AddRange(HelperUtilities.GetRaycastHitObjects(rangeDetector.transform.position,
+            Vector3.left, player.playerDetails.attackRangeRadius, player.playerDetails.enemyLayer));
         
-        if(detectedObjects == null) return;
+        detectedObjects.AddRange(HelperUtilities.GetRaycastHitObjects(rangeDetector.transform.position, Vector3.right,
+            player.playerDetails.attackRangeRadius, player.playerDetails.enemyLayer));
+        
+        if (detectedObjects.Count == 0) return;
+        Debug.Log("123");
         playerEvents.CallEnemyDetected(detectedObjects);
         StartCoroutine(DealDamage(detectedObjects));
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(rangeDetector.transform.position, Vector3.left);
     }
 
     private IEnumerator DealDamage(List<GameObject> objects)
     {
         if (objects.Count == 0) yield return new WaitForEndOfFrame();
-        
+
         foreach (var obj in objects)
         {
             Health health = obj.GetComponent<Health>();
-            if(health == null) continue;
-            health.TakeDamage(playerDetails.playerDamage);
+            if (health == null) continue;
+            health.TakeDamage(player.playerDetails.playerDamage);
         }
 
-        yield return new WaitForSeconds(playerDetails.attackInterval);
+        yield return new WaitForSeconds(player.playerDetails.attackInterval);
     }
 }

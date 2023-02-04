@@ -10,6 +10,7 @@ Material:
   m_Name: newtreemat
   m_Shader: {fileID: 4800000, guid: 851f2d9f112af2f4390a3d702e3e6553, type: 3}
   m_ValidKeywords:
+  - _MK_ALBEDO_MAP
   - _MK_ARTISTIC_PROJECTION_SCREEN_SPACE
   - _MK_COLOR_GRADING_ALBEDO
   - _MK_ENVIRONMENT_REFLECTIONS_AMBIENT
@@ -34,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AlbedoMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f078ab542d1b01a4098828df2244aa17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -90,7 +91,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f078ab542d1b01a4098828df2244aa17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -190,7 +191,7 @@ Material:
     - _OutlineFadeMax: 2
     - _OutlineFadeMin: 0.25
     - _OutlineNoise: -1
-    - _OutlineSize: 70
+    - _OutlineSize: 50
     - _OutlineTab: 1
     - _Parallax: 0.02
     - _ReceiveShadows: 1
@@ -229,7 +230,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 0.4509804, g: 0.22572164, b: 0.21568628, a: 1}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.49056602, g: 0.26887602, b: 0.18743324, a: 1}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

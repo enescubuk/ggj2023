@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
  [DisallowMultipleComponent]
 public class Player : MonoBehaviour
 {
-    [SerializeField] private PlayerDetailsSO playerDetails;
+    public PlayerDetailsSO playerDetails;
     private Health health;
     private HealthEvents healthEvents;
     private GameEvents gameEvents;
@@ -23,13 +23,13 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         healthEvents.OnHealthChanged += HandleOnHealthChangedEvent;
-        gameEvents.OnTurnStart += HandleOnDayChangedEvent;
+        //gameEvents.OnTurnStart += HandleOnDayChangedEvent;
     }
 
     private void OnDisable()
     {
         healthEvents.OnHealthChanged -= HandleOnHealthChangedEvent;
-        gameEvents.OnTurnStart -= HandleOnDayChangedEvent;
+        //gameEvents.OnTurnStart -= HandleOnDayChangedEvent;
     }
     
     private void HandleOnHealthChangedEvent(float healthPercent, int healthAmount, int damage)

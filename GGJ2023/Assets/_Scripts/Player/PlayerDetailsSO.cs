@@ -14,7 +14,6 @@ public class PlayerDetailsSO : ScriptableObject
     public float attackRangeRadius;
     public float attackInterval;
     public LayerMask enemyLayer;
-    public GameObject rangeDetector;
     public int leafToAdd;
 
     public int plantAreaRadius;
