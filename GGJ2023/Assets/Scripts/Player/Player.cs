@@ -1,7 +1,7 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+[RequireComponent(typeof(PlayerAttack))]
 [RequireComponent(typeof(Health))]
 [RequireComponent(typeof(HealthEvents))]
 [DisallowMultipleComponent]
@@ -19,14 +19,6 @@ public class Player : MonoBehaviour
         health = GetComponent<Health>();
         healthEvents = GetComponent<HealthEvents>();
         leafsParent = (GameObject)Instantiate(null, transform.position, transform.rotation, transform);
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            AddLeafToPlayer();
-        }
     }
 
     private void OnEnable()
@@ -63,7 +55,7 @@ public class Player : MonoBehaviour
             float leafpositionY = Random.Range(leafsParent.transform.position.y - playerDetails.leafSpawnDistanceMax.y,
                 leafsParent.transform.position.y + playerDetails.leafSpawnDistanceMax.y);
             
-            Vector3 leafPosition = new Vector3(leafpositionX, leafpositionY, 0f);
+            Vector3 leafPosition = new Vector3(leafpositionX, leafpositionY, transform.position.z);
             
             var newLeaf = Instantiate(playerDetails.leafObject, leafPosition, transform.rotation, leafsParent.transform);
         }
