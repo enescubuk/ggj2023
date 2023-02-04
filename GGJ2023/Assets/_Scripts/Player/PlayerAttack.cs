@@ -12,10 +12,13 @@ public class PlayerAttack : MonoBehaviour
     private AttackEvents playerEvents;
     private Player player;
 
+    private void Awake()
+    {
+        player = GetComponent<Player>();
+    }
+
     private void Update()
     {
-        if (!Input.GetKeyDown(KeyCode.Space)) return;
-
         detectedObjects = new List<GameObject>();
         Debug.DrawRay(rangeDetector.transform.position, rangeDetector.transform.right);
         

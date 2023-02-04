@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesBuiltin.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesInc.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesURP.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ShadersBuiltIn.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ShadersLWRP.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/ShadersURP.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ana.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ana.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/endesga-64-8x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/endesga-64-8x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/enemy.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/tree 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scriptable Object/PlayerDetails.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerDetailsSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerDetailsSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/newtreemat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/newtreemat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/tree 1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/enemy.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="34534000" />
+      <workItem from="1675455687977" duration="34854000" />
     </task>
     <servers />
   </component>
@@ -132,5 +112,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Scripts/Player/PlayerAttack.cs</url>
+          <line>42</line>
+          <properties documentPath="D:\Projects\Unity Projects\ggj2023\GGJ2023\Assets\_Scripts\Player\PlayerAttack.cs" initialLine="37" containingFunctionPresentation="method 'DealDamage'">
+            <startOffsets>
+              <option value="1449" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1492" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
