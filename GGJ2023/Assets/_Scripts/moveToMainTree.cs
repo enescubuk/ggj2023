@@ -16,12 +16,16 @@ public class moveToMainTree : MonoBehaviour
     {
         Vector3 targetPosition = transform.position;
         targetPosition.x = mainTree.transform.position.x;
-        transform.DOMove(targetPosition,5,false);
+        transform.DOMove(targetPosition,10,false);
     }
 
-    void Update()
+    public void stopMove()
     {
-        
+        DOTween.Pause(transform);
+    }
+    public void countinueMove()
+    {
+        DOTween.Play(transform);
     }
 
 }
