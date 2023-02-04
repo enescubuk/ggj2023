@@ -46,8 +46,12 @@ public class Attack : MonoBehaviour
                 Vector3.right,
                 enemy.enemyDetails.attackRangeRadius, enemy.enemyDetails.enemyLayer));
         }
-        
-        if (detectedObjects.Count == 0) return;
+
+        if (detectedObjects.Count == 0)
+        {
+            attackEvents.CallAttackStop();
+            return;
+        }
 
         if (!isAttacking)
         {

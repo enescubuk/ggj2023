@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EnemyDetails
   m_EditorClassIdentifier: 
   enemyDamage: 10
-  attackRangeRadius: 5
+  attackRangeRadius: 3
   attackInterval: 1
   enemyLayer:
     serializedVersion: 2

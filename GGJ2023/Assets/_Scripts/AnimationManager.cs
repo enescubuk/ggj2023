@@ -36,12 +36,13 @@ public class AnimationManager : MonoBehaviour
 
     private void AttackAnim(List<GameObject> obj)
     {
+        GetComponent<moveToMainTree>().stopMove();
         animator.SetTrigger(Attack);
     }
 
     private void DeathAnim(int obj)
     {
-        Debug.Log("123");
+        GetComponent<moveToMainTree>().stopMove();
         animator.SetTrigger(Death);
         Destroy(gameObject, deathTime);
     }

@@ -63,5 +63,6 @@ public class Player : MonoBehaviour
     private void PlayerDestroyed()
     {
         healthEvents.CallDestroyEvent(true, 0);
+        Destroy(gameObject);
     }
 }
