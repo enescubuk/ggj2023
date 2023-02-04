@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 13692799}
   - component: {fileID: 13692798}
   - component: {fileID: 13692797}
-  m_Layer: 31
+  m_Layer: 6
   m_Name: w
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,8 +213,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13692796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.99, y: -1.85, z: 2.27}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 20.8978, y: -1.99, z: 2.27}
+  m_LocalScale: {x: 0.8157, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -260,11 +260,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7047901055842711363, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: rayDistance
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5425163051359980916, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8589728506621266441, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8589728506621266442, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: m_RootOrder
@@ -272,11 +276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8589728506621266442, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.38
+      value: 31.7
       objectReference: {fileID: 0}
     - target: {fileID: 8589728506621266442, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6
+      value: -1.65
       objectReference: {fileID: 0}
     - target: {fileID: 8589728506621266442, guid: cfda04dc9c71bda459082a67caea9d85, type: 3}
       propertyPath: m_LocalPosition.z
