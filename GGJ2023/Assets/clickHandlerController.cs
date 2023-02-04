@@ -3,33 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class clickHandlerController : MonoBehaviour
+public class clickHandlerController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    private LayerMask targetLayer;
-    Vector3 mousePos;
-    void Start()
+    public bool holdOnObject = false;
+    public void OnPointerDown( PointerEventData eventData )
     {
-        targetLayer = LayerMask.GetMask("Draggable");
+        Debug.Log("onpointerdown");
+        holdOnObject = true;
     }
-    void Update()
+    public void OnPointerUp( PointerEventData eventData )
     {
-        
-    }
-    void OnMouseDown()
-    {
-        GetComponent<Rigidbody>().isKinematic = false;
-        GetComponent<BoxCollider>().material = null;
-    }
-    void OnMouseDrag()
-    {
-        mousePos = Input.mousePosition;
-        mousePos = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 15));
-        mousePos.z = transform.position.z;
-        transform.position = mousePos;
+        Debug.Log("onpointerup");
+        holdOnObject = false;
     }
 
-    void OnMouseUp()
+    void Update()
     {
-        
-    }
+        //if (holdOnObject)
+        //{
+        //    Vector3 mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //    transform.position = new Vector3(mouseScreenPosition.x,mouseScreenPosition.y,transform.position.z);
+        //}
+
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Debug.Log(worldPosition);
+    }   
 }
