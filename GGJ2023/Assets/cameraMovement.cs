@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class cameraMovement : MonoBehaviour
 {
-    public float speed;
-    private Vector3 nextPos;
+    public float speed = 10.0f;
+    public float smoothTime = 0.3f;
+
+    private float horizontalVelocity = 0.0f;
     void FixedUpdate()
     {
-        float h = Input.GetAxisRaw("Horizontal");
-        nextPos = transform.right * h * speed + transform.position;
-        transform.position = Vector3.Lerp(transform.position,nextPos,1 * Time.deltaTime);
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.position += Vector3.right * horizontalInput * speed * Time.deltaTime;
+
+        float smoothHorizontal = Mathf.SmoothDamp(transform.position.x, transform.position.x + horizontalInput * speed * Time.deltaTime, ref horizontalVelocity, smoothTime);
+        transform.position = new Vector3(smoothHorizontal, transform.position.y, transform.position.z);
     }
 }
