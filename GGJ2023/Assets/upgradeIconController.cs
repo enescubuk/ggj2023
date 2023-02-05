@@ -8,6 +8,7 @@ public class upgradeIconController : MonoBehaviour
 
     public void activeIcon(GameObject lastObject)
     {
+        Debug.Log(2);
         this.lastObject = lastObject;
         setPosIcon(lastObject);
     }
@@ -21,7 +22,6 @@ public class upgradeIconController : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log(31);
         GameObject.FindGameObjectWithTag("PhaseManager").GetComponent<phaseController>().upgradePhase(detectPhase(),lastObject);
         Destroy(lastObject);
         GetComponent<SpriteRenderer>().enabled = false;
