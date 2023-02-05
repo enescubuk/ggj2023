@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triangleSprite: {fileID: 1808109542}
+  positionY: -0.4
 --- !u!114 &748246441
 MonoBehaviour:
   m_ObjectHideFlags: 0

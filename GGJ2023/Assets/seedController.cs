@@ -5,6 +5,7 @@ using UnityEngine;
 public class seedController : MonoBehaviour
 {
     public GameObject triangleSprite;
+    [SerializeField] private float positionY;
     void Start()
     {
         //Instantiate(triangleSprite,getPosition(),Quaternion.identity);
@@ -17,7 +18,7 @@ public class seedController : MonoBehaviour
     {
         Vector3 lastPosition = transform.position;
         lastPosition.x = transform.position.x;
-        lastPosition.y = -3.3576f;
+        lastPosition.y = positionY;
         return lastPosition;
     }
 }
