@@ -9,7 +9,7 @@ public class instantiateManure : MonoBehaviour , IPointerClickHandler
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
-        GameObject instantiated = Instantiate(manure,getMousePosition(),Quaternion.identity);
+        GameObject instantiated = Instantiate(manure, new Vector3(getMousePosition().x, getMousePosition().y, 0f),Quaternion.identity);
         instantiated.GetComponent<Rigidbody>().isKinematic = true;
         instantiated.GetComponent<Collider>().material = null;
     }

@@ -39,7 +39,6 @@ public class moveToMainTree : MonoBehaviour
     }
     public void countinueMove()
     {
-        Debug.Log("123");
         DOTween.Play(transform);
     }
 
