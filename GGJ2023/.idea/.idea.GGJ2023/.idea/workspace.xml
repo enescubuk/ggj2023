@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6f20d7-47a5-42d8-946a-74065f7d282f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Walking.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy_Walking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Manure.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Manure.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Phase1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Phase1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/moveToMainTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/moveToMainTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/instantiateManure.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/instantiateManure.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/seedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/seedController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675450925606</updated>
       <workItem from="1675450947586" duration="18000" />
-      <workItem from="1675455687977" duration="58520000" />
+      <workItem from="1675455687977" duration="58865000" />
     </task>
     <servers />
   </component>
